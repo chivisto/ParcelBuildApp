@@ -1,9 +1,7 @@
 
 body {
-    background: #fff;
-    color: #333;
-    font-family: Lato, sans-serif;
-    background: #B2FEFA;
-    background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);
-    background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: -webkit-linear-gradient(to left, #f77f0e, #feddb2);
+    background: linear-gradient(to left, #f77f0e, #feddb2);
 }
