@@ -1,1 +1,9 @@
 
+body {
+    background: #fff;
+    color: #333;
+    font-family: Lato, sans-serif;
+    background: #B2FEFA;
+    background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);
+    background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+}
