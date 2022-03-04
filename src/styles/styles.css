@@ -1,28 +1,33 @@
-/* Basic Style */
 body {
     background: #fff;
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .container {
     display: block;
     width: 400px;
     margin: 100px auto 0;
 }
+
 ul {
     margin: 0;
     padding: 0;
 }
+
 li * {
     float: left;
 }
+
 li, h3 {
     clear:both;
     list-style:none;
 }
+
 input, button {
     outline: none;
 }
+
 button {
     display: flex;
     background: none;
@@ -34,10 +39,11 @@ button {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 button:hover {
     color: #333;
 }
-  /* Heading */
+
 h3,
 label[for='new-task'] {
     color: #333;
@@ -63,51 +69,52 @@ input[type="text"] {
 input[type="text"]:focus {
     color: #333;
 }
-  
-  /* New Task */
+
 label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
 }
 input#new-task {
     float: left;
-    width: 318px;
+    width: 300px;
+    margin-right: 15px;
 }
 p > button:hover {
     color: #0FC57C;
 }
-  
-  /* Task list */
+
 li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
 }
-li > input[type="checkbox"] {
+li input[type="checkbox"] {
     margin: 0 10px;
     position: relative;
     top: 15px;
 }
-li > label {
+li label {
     font-size: 18px;
     line-height: 40px;
     width: 237px;
     padding: 0 0 0 11px;
 }
-li >  input[type="text"] {
+li input[type="text"] {
     width: 226px;
 }
-li > .delete:hover {
+li .delete:hover {
     color: #CF2323;
 }
-  
-  /* Completed */
-#completed-tasks label {
-    text-decoration: line-through;
-    color: #888;
+
+li .edit:hover {
+    color: rgb(100, 154, 236);
 }
   
-  /* Edit Task */
+#completed-tasks label {
+    text-decoration: line-through;
+    color: #0FC57C;
+}
+  
 ul li input[type=text] {
     display:none;
 }
@@ -129,22 +136,20 @@ img{
     margin-bottom: 0;
 }
 
-.new-task {
+li{
+    color: rgb(236, 193, 100);
     display: flex;
     flex-direction: row;
 }
 
-#new-task {
-    display: flex;
-    flex-direction: row;
+p button{
+    border: 1px solid black;
+    font-size: 32px;
+    display: inline;
+    margin-top: 0px;
+    border-radius: 10px;
 }
 
-#incomplete-task{
-    display: flex;
-    flex-direction: row;
-}
-
-#completed-task{
-    display: flex;
-    flex-direction: row;
+p button:hover{
+    border: 1px green solid;
 }
