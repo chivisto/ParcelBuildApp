@@ -1,7 +1,6 @@
 
 body{
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: -webkit-linear-gradient(to left, #EB561A, #feddb2);
     background: linear-gradient(to left, #EB561A, #feddb2);
     margin: 0 auto;
@@ -16,7 +15,6 @@ img{
 #title {
     margin-top: 5px;
     font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
 
@@ -71,10 +69,10 @@ button:hover {
 
 h3,
 label[for='new-task'] {
-    color: #333;
+    color: #AE66EB;
     font-weight: 700;
     font-size: 15px;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #AE66EB;
     padding: 30px 0 10px;
     margin: 0;
     text-transform: uppercase;
@@ -88,8 +86,7 @@ input[type="text"] {
     padding: 10px;
     border: 1px solid #ddd;
     background: #fff;
-    border-radius: 6px;
-    font-family: Lato, sans-serif;
+    border-radius: 5px;
     color: #888;
 }
 
@@ -167,4 +164,6 @@ ul li.editMode label {
     font-size: 15px;
     float: right;
     text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
 }
