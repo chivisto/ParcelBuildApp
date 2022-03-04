@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Todo App</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/src/styles/styles.css" type="text/css" media="screen" charset="utf-8">    
-  </head>
-  <body>
-      <img src="/src/images/list.png" alt="todo image">
+    <link rel="stylesheet" href="/src/styles/styles.css" type="text/css" media="screen" charset="utf-8">
+</head>
+
+<body>
+    <img src="/src/images/list.png" alt="todo image">
+
     <div class="container">
-      <p>
-        <label for="new-task">Add Item</label><input id="new-task" type="text"><button>Add Todo</button>
-      </p>
-      
-      <h3>Todo</h3>
-      <ul id="incomplete-tasks"></ul>
-      
-      <h3>Completed</h3>
-      <ul id="completed-tasks"></ul>
+        <p>
+            <label for="new-task">Add Item</label>
+            <input id="new-task" type="text">
+            <button>+</button>
+        </p>
+
+        <h3>Todo</h3>
+        <ul id="incomplete-tasks"></ul>
+
+        <h3>Completed</h3>
+        <ul id="completed-tasks"></ul>
     </div>
+
     <script src="/src/js/index.js"></script>
-  </body>
+</body>
+
 </html>
