@@ -1,5 +1,13 @@
+import _ from 'lodash';
 import '/src/styles.css';
+import image from '/src/list.png';
 
+
+const img = new Image();
+  img.src = image;
+
+  element.appendChild(img);
+  
 const taskInput = document.getElementById("new-task");
 const addButton = document.getElementsByTagName("button")[0];
 const incompleteTasksHolder = document.getElementById("incomplete-tasks");
