@@ -33,7 +33,7 @@ const createNewTaskElement = (taskString) => {
 
 //Add a new task
 const addTask = () => {
-	var listItem = createNewTaskElement(taskInput.value);
+	let listItem = createNewTaskElement(taskInput.value);
 
 	incompleteTasksHolder.appendChild(listItem);
 	bindTaskEvents(listItem, taskCompleted);
@@ -98,7 +98,6 @@ const bindTaskEvents = (taskListItem, checkBoxEventHandler) => {
 
 //Set the click handler to the addTask function
 addButton.addEventListener("click", addTask);
-addButton.addEventListener("click", ajaxRequest);
 
 //cycle over incompleteTasksHolder ul list items
 for (let i = 0; i < incompleteTasksHolder.children.length; i++) {
