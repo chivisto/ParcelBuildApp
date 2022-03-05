@@ -7,8 +7,10 @@
   "description": "Javascript build tools and bundlers are an important part of the web developers' tool kit. These tools allow the developer to take their code and prepare it for production. In this assignment, we will take a simple app, build it, and deploy it to production with 2 tools. First with Webpack and second with a bundler of your choice.",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
