@@ -1,13 +1,22 @@
 import _ from 'lodash';
+import Icon from '/src/icon.png';
 import '/src/styles.css';
-import image from '/src/list.png';
 
+function component() {
+	const element = document.createElement('div');
+	element.classList.add('hello');
 
-const img = new Image();
-  img.src = image;
-
-  element.appendChild(img);
+	 // Add the image to our existing div.
+	 const myIcon = new Image();
+	 myIcon.src = Icon;
+   
+	 element.appendChild(myIcon);
   
+	return element;
+  }
+  
+  document.body.appendChild(component());
+
 const taskInput = document.getElementById("new-task");
 const addButton = document.getElementsByTagName("button")[0];
 const incompleteTasksHolder = document.getElementById("incomplete-tasks");
