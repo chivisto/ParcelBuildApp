@@ -1,22 +1,3 @@
-import _ from 'lodash';
-import Icon from '/src/icon.png';
-import '/src/styles.css';
-
-function component() {
-	const element = document.createElement('div');
-	element.classList.add('hello');
-
-	 // Add the image to our existing div.
-	 const myIcon = new Image();
-	 myIcon.src = Icon;
-   
-	 element.appendChild(myIcon);
-  
-	return element;
-  }
-  
-  document.body.appendChild(component());
-
 const taskInput = document.getElementById("new-task");
 const addButton = document.getElementsByTagName("button")[0];
 const incompleteTasksHolder = document.getElementById("incomplete-tasks");
