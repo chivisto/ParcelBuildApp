@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel dist/index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build dist/index.html"
   },
   "keywords": [],
   "author": "",
